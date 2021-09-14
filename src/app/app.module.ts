@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { IngresoComponent } from './casilla/ingreso/ingreso.component';
+import { SalidaComponent } from './casilla/salida/salida.component';
+import { CheckComponent } from './casilla/check/check.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IngresoComponent,
+    SalidaComponent,
+    CheckComponent
   ],
   imports: [
     BrowserModule,

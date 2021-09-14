@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "parqueadero"
+    }
+  },
+  "defaultProject": "parqueadero",
+  "cli": {
+    "analytics": false
+  }
 }
